@@ -23,7 +23,7 @@ $background_color: #4bbbbcff;
     user-select: none;
     font-family: "Space Mono", monospace;
     color: whitesmoke;
-    margin-top: 7rem;
+    margin-top: 16rem;
 
     // padding: 5rem;
     // background: yellow;
@@ -68,11 +68,12 @@ $background_color: #4bbbbcff;
 .form {
   // position: absolute;
   //   top: 0;
+  margin-top: 5rem;
 
   & > div {
     display: flex;
-    // flex-direction: column;
-    gap: 2rem;
+    flex-direction: column;
+    gap: 1rem;
     align-items: center;
     padding-top: 0.5rem;
   }

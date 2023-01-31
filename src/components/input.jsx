@@ -10,10 +10,10 @@ function Input({ setQuestionAsked }) {
   return (
     <form className={styles.form}>
       <div>
-        <label htmlFor="name">Your YES/NO question: </label>
         <input
           ref={input}
           value={question}
+          placeholder='Your YES/NO question'
           type="text"
           name="name"
           id="name"
