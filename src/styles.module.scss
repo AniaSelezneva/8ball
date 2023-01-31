@@ -16,6 +16,7 @@ $background_color: #4bbbbcff;
   justify-content: center;
   flex-direction: column;
   background: $background_color;
+  padding-top: 0.5rem;
 
   .text {
     position: absolute;
@@ -23,7 +24,7 @@ $background_color: #4bbbbcff;
     user-select: none;
     font-family: "Space Mono", monospace;
     color: whitesmoke;
-    margin-top: 13rem;
+    margin-top: 9rem;
 
     // padding: 5rem;
     // background: yellow;
@@ -72,7 +73,7 @@ $background_color: #4bbbbcff;
   & > div {
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 0.1rem;
     align-items: center;
   }
 
