@@ -82,5 +82,13 @@ $background_color: #4bbbbcff;
     width: 20rem;
     max-width: 90vw;
     padding: 0.5rem;
+    z-index: 10;
   }
+}
+
+.hint {
+  font-family: "Space Mono", monospace;
+  color: whitesmoke;
+  position: absolute;
+  top: 0;
 }

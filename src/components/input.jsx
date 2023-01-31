@@ -9,7 +9,9 @@ function Input({ setQuestionAsked }) {
 
   return (
     <form className={styles.form}>
+      
       <div>
+      <p className={styles.hint}>Use two fingers to rotate the ball</p>
         <input
           ref={input}
           value={question}

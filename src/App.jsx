@@ -211,7 +211,6 @@ function EightBall() {
       )}
       {/* FORM */}
       <Input setQuestionAsked={setQuestionAsked} />
-
       <div className={styles.text} ref={text}>
         <p>Ask me something.</p>
       </div>
