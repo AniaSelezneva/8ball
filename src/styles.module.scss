@@ -9,14 +9,13 @@ $background_color: #4bbbbcff;
 }
 
 #wrapper {
-  height: 100vh;
+  //height: 100vh;
   position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   background: $background_color;
-  padding-top: 0.5rem;
 
   .text {
     position: absolute;
@@ -73,8 +72,9 @@ $background_color: #4bbbbcff;
   & > div {
     display: flex;
     flex-direction: column;
-    gap: 0.1rem;
+    gap: 2rem;
     align-items: center;
+    padding-top: 0.5rem;
   }
 
   input {
