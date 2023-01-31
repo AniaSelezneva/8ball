@@ -13,7 +13,7 @@ function Input({ setQuestionAsked }) {
         <input
           ref={input}
           value={question}
-          autoComplete={false}
+          autocomplete="off"
           placeholder='Your YES/NO question'
           type="text"
           name="name"
